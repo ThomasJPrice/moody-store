@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56.25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p,
+.body-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.primary-button,
+.secondary-button {
+    font-weight: 700;
+    line-height: 19px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.primary-button {
+    font-size: 16px;
+}
+
+.primary-button,
+.secondary-button:hover {
+    color: #FFFFFF;
+    background: var(--grey);
+}
+
+.secondary-button {
+    border: 1px solid #323334;
+    transition: all 300ms ease;
+    font-size: 14px;
+    color: #323334;
 }

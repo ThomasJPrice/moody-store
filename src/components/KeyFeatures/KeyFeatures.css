@@ -1,0 +1,23 @@
+.key-features {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.key-feature {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    padding: 3px;
+    text-align: center;
+}
